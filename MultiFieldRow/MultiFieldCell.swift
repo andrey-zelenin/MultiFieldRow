@@ -30,7 +30,16 @@ final class MultiFieldCell: Cell<SomeStruct>, CellType {
     @IBOutlet var pushRowBtn: UIButton!
     @IBOutlet var textField1: UITextField!
     @IBOutlet var textField2: UITextField!
-    @IBOutlet var someActBtn: UIButton!
+    
+    @IBAction func onTapPushRowBtn(_ sender: Any) {
+        guard let tableView = self.tableView,
+            let pushRow: PushRow<String> = row.section?.rowBy(tag: "hidden_values")
+        else {
+            return
+        }
+        
+        pushRow.didSelect()
+    }
     
     required init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

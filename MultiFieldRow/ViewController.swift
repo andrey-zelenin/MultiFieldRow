@@ -22,7 +22,7 @@ class ViewController: FormViewController {
         form +++
             MultivaluedSection(
                 multivaluedOptions: [.Reorder, .Insert, .Delete],
-                header: "Multivalued TextField"
+                header: "Multivalued Section"
             ) {
                 $0.tag = "patient_insurances"
                 $0.addButtonProvider = { section in
@@ -41,6 +41,12 @@ class ViewController: FormViewController {
                     return MultiFieldRow() { row in
                         row.value = SomeStruct()
                     }
+                }
+                
+                $0 <<< PushRow<String> {
+                    $0.hidden = true
+                    $0.tag = "hidden_values"
+                    $0.options = ["Value1", "Value2", "Value3", "Value4", "Value5"]
                 }
             }
             

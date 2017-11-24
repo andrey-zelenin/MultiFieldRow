@@ -11,6 +11,7 @@
 		34391EFC1FC81755004CFAF0 /* MultiFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34391EFB1FC81755004CFAF0 /* MultiFieldCell.swift */; };
 		34391EFE1FC81773004CFAF0 /* MultiFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34391EFD1FC81773004CFAF0 /* MultiFieldRow.swift */; };
 		34391F021FC81878004CFAF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34391F011FC81878004CFAF0 /* AppDelegate.swift */; };
+		34391F051FC87233004CFAF0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34391F041FC87233004CFAF0 /* Helpers.swift */; };
 		348E29981FC80BF200BC158D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E29971FC80BF200BC158D /* ViewController.swift */; };
 		348E299B1FC80BF200BC158D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E29991FC80BF200BC158D /* Main.storyboard */; };
 		348E299D1FC80BF200BC158D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348E299C1FC80BF200BC158D /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		34391EFB1FC81755004CFAF0 /* MultiFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFieldCell.swift; sourceTree = "<group>"; };
 		34391EFD1FC81773004CFAF0 /* MultiFieldRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFieldRow.swift; sourceTree = "<group>"; };
 		34391F011FC81878004CFAF0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Resources/AppDelegate.swift; sourceTree = "<group>"; };
+		34391F041FC87233004CFAF0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		348E29921FC80BF200BC158D /* MultiFieldRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiFieldRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		348E29971FC80BF200BC158D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		348E299A1FC80BF200BC158D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				348E29C41FC80D4700BC158D /* Resources */,
 				348E29C31FC80D2A00BC158D /* Views */,
 				34391F011FC81878004CFAF0 /* AppDelegate.swift */,
+				34391F041FC87233004CFAF0 /* Helpers.swift */,
 				34391EFB1FC81755004CFAF0 /* MultiFieldCell.swift */,
 				34391EFD1FC81773004CFAF0 /* MultiFieldRow.swift */,
 				348E29971FC80BF200BC158D /* ViewController.swift */,
@@ -487,6 +490,7 @@
 				34391F021FC81878004CFAF0 /* AppDelegate.swift in Sources */,
 				34391EFC1FC81755004CFAF0 /* MultiFieldCell.swift in Sources */,
 				34391EFE1FC81773004CFAF0 /* MultiFieldRow.swift in Sources */,
+				34391F051FC87233004CFAF0 /* Helpers.swift in Sources */,
 				348E29981FC80BF200BC158D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
