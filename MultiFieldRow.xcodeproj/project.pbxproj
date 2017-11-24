@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		348E29961FC80BF200BC158D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E29951FC80BF200BC158D /* AppDelegate.swift */; };
+		34391EF91FC81445004CFAF0 /* MultiFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34391EF81FC81445004CFAF0 /* MultiFieldCell.xib */; };
+		34391EFC1FC81755004CFAF0 /* MultiFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34391EFB1FC81755004CFAF0 /* MultiFieldCell.swift */; };
+		34391EFE1FC81773004CFAF0 /* MultiFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34391EFD1FC81773004CFAF0 /* MultiFieldRow.swift */; };
+		34391F021FC81878004CFAF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34391F011FC81878004CFAF0 /* AppDelegate.swift */; };
 		348E29981FC80BF200BC158D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E29971FC80BF200BC158D /* ViewController.swift */; };
 		348E299B1FC80BF200BC158D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E29991FC80BF200BC158D /* Main.storyboard */; };
 		348E299D1FC80BF200BC158D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348E299C1FC80BF200BC158D /* Assets.xcassets */; };
 		348E29A01FC80BF300BC158D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E299E1FC80BF300BC158D /* LaunchScreen.storyboard */; };
 		348E29AB1FC80BF300BC158D /* MultiFieldRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E29AA1FC80BF300BC158D /* MultiFieldRowTests.swift */; };
 		348E29B61FC80BF300BC158D /* MultiFieldRowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E29B51FC80BF300BC158D /* MultiFieldRowUITests.swift */; };
-		348E29C61FC80E4800BC158D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E29C51FC80E4800BC158D /* Default-568h@2x.png */; };
 		46F4061BEB9FA69649F860DB /* Pods_MultiFieldRowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8A18365BF06E41634731C6 /* Pods_MultiFieldRowUITests.framework */; };
 		7274198EFB11EB3B55D59C81 /* Pods_MultiFieldRowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350D6C52CC8316C13E7C49FD /* Pods_MultiFieldRowTests.framework */; };
 		E814B9A51AB4471BF491C9FC /* Pods_MultiFieldRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E73B560F7CA1DA777B0C80 /* Pods_MultiFieldRow.framework */; };
@@ -41,8 +43,11 @@
 		1E8A18365BF06E41634731C6 /* Pods_MultiFieldRowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiFieldRowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240965CCB7C120D490FE37BC /* Pods-MultiFieldRow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRow/Pods-MultiFieldRow.debug.xcconfig"; sourceTree = "<group>"; };
 		2AFD08399F9D5AF174A7512D /* Pods-MultiFieldRowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRowUITests/Pods-MultiFieldRowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34391EF81FC81445004CFAF0 /* MultiFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiFieldCell.xib; sourceTree = "<group>"; };
+		34391EFB1FC81755004CFAF0 /* MultiFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFieldCell.swift; sourceTree = "<group>"; };
+		34391EFD1FC81773004CFAF0 /* MultiFieldRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFieldRow.swift; sourceTree = "<group>"; };
+		34391F011FC81878004CFAF0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Resources/AppDelegate.swift; sourceTree = "<group>"; };
 		348E29921FC80BF200BC158D /* MultiFieldRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiFieldRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		348E29951FC80BF200BC158D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		348E29971FC80BF200BC158D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		348E299A1FC80BF200BC158D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		348E299C1FC80BF200BC158D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,7 +59,6 @@
 		348E29B11FC80BF300BC158D /* MultiFieldRowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiFieldRowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		348E29B51FC80BF300BC158D /* MultiFieldRowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFieldRowUITests.swift; sourceTree = "<group>"; };
 		348E29B71FC80BF300BC158D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		348E29C51FC80E4800BC158D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		350D6C52CC8316C13E7C49FD /* Pods_MultiFieldRowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiFieldRowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F0EC040700575FD2BD1B27 /* Pods-MultiFieldRow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRow.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRow/Pods-MultiFieldRow.release.xcconfig"; sourceTree = "<group>"; };
 		7BA3E8145DF09517CA02C274 /* Pods-MultiFieldRowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRowUITests/Pods-MultiFieldRowUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +98,6 @@
 		348E29891FC80BF200BC158D = {
 			isa = PBXGroup;
 			children = (
-				348E29C51FC80E4800BC158D /* Default-568h@2x.png */,
 				348E29941FC80BF200BC158D /* MultiFieldRow */,
 				348E29A91FC80BF300BC158D /* MultiFieldRowTests */,
 				348E29B41FC80BF300BC158D /* MultiFieldRowUITests */,
@@ -119,7 +122,9 @@
 			children = (
 				348E29C41FC80D4700BC158D /* Resources */,
 				348E29C31FC80D2A00BC158D /* Views */,
-				348E29951FC80BF200BC158D /* AppDelegate.swift */,
+				34391F011FC81878004CFAF0 /* AppDelegate.swift */,
+				34391EFB1FC81755004CFAF0 /* MultiFieldCell.swift */,
+				34391EFD1FC81773004CFAF0 /* MultiFieldRow.swift */,
 				348E29971FC80BF200BC158D /* ViewController.swift */,
 			);
 			path = MultiFieldRow;
@@ -148,6 +153,7 @@
 			children = (
 				348E299E1FC80BF300BC158D /* LaunchScreen.storyboard */,
 				348E29991FC80BF200BC158D /* Main.storyboard */,
+				34391EF81FC81445004CFAF0 /* MultiFieldCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -301,8 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				348E29A01FC80BF300BC158D /* LaunchScreen.storyboard in Resources */,
-				348E29C61FC80E4800BC158D /* Default-568h@2x.png in Resources */,
 				348E299D1FC80BF200BC158D /* Assets.xcassets in Resources */,
+				34391EF91FC81445004CFAF0 /* MultiFieldCell.xib in Resources */,
 				348E299B1FC80BF200BC158D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,8 +484,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34391F021FC81878004CFAF0 /* AppDelegate.swift in Sources */,
+				34391EFC1FC81755004CFAF0 /* MultiFieldCell.swift in Sources */,
+				34391EFE1FC81773004CFAF0 /* MultiFieldRow.swift in Sources */,
 				348E29981FC80BF200BC158D /* ViewController.swift in Sources */,
-				348E29961FC80BF200BC158D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -633,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

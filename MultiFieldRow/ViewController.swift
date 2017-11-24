@@ -13,10 +13,10 @@ class ViewController: FormViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let values: [String] = [
-            "First item",
-            "Second item",
-            "Third item"
+        let values: [SomeStruct] = [
+            SomeStruct("Value 1", "123456", "000000"),
+            SomeStruct("Value 2", "675431", "111111"),
+            SomeStruct("Value 3", "987654", "222222")
         ]
         
         form +++
@@ -32,26 +32,25 @@ class ViewController: FormViewController {
                 }
                 
                 for item in values {
-                    $0 <<< NameRow() {
-                        $0.placeholder = "Tag Name"
-                        $0.value = item
+                    $0 <<< MultiFieldRow() { row in
+                        row.value = item
                     }
                 }
                 
                 $0.multivaluedRowToInsertAt = { index in
-                    return NameRow() {
-                        $0.placeholder = "Tag Name"
+                    return MultiFieldRow() { row in
+                        row.value = SomeStruct()
                     }
                 }
             }
             
             +++ Section()
             <<< ButtonRow() { (row: ButtonRow) -> Void in
-                row.title = "Get values"
+                    row.title = "Get values"
                 }
                 .onCellSelection { row, cell in
                     print(self.form.values())
-        }
+                }
     }
 
     override func didReceiveMemoryWarning() {
