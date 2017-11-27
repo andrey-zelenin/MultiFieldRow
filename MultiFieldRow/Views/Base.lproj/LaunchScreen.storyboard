@@ -30,10 +30,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A.Zelenin, 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovt-cE-hjd">
+                                <rect key="frame" x="5" y="980" width="758" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ovt-cE-hjd" secondAttribute="trailing" constant="5" id="0G4-2j-PbV"/>
                             <constraint firstItem="1va-rs-9Mc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-5" id="2ee-lT-5qb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ovt-cE-hjd" secondAttribute="bottom" constant="15" id="Aq1-Xi-48S"/>
+                            <constraint firstItem="ovt-cE-hjd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="YMv-4A-tsW"/>
                             <constraint firstItem="mLW-7H-WcC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Zov-aZ-TDR"/>
                             <constraint firstItem="mLW-7H-WcC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-4.3333333333333712" id="fbm-0e-9Lo"/>
                             <constraint firstItem="1va-rs-9Mc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="lgv-21-vys"/>
