@@ -10,7 +10,6 @@ import UIKit
 import Eureka
 
 class ViewController: FormViewController {
-    
     var countries = [String]()
     
     override func viewDidLoad() {

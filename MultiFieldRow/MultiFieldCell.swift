@@ -30,8 +30,9 @@ final class MultiFieldCell: Cell<FieldDataStruct>, UITextFieldDelegate, CellType
     
     var lookupList = [String]()
     
-    required init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    required init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        //super.init(style: style, reuseIdentifier: reuseIdentifier)
+        fatalError("init(style:reuseIdentifier:) has not been implemented")
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -66,7 +67,7 @@ final class MultiFieldCell: Cell<FieldDataStruct>, UITextFieldDelegate, CellType
         tField2.text = data.textField2Value
     }
     
-    @objc open func textFieldDidEndEditing(_ textField: UITextField) {
+    @objc public func textFieldDidEndEditing(_ textField: UITextField) {
         updateValuesForTextField(textField)
     }
     
