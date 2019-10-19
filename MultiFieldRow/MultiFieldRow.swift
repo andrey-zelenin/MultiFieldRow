@@ -10,10 +10,11 @@ import Foundation
 import Eureka
 
 final class MultiFieldRow: Row<MultiFieldCell>, RowType {
-    required init(tag: String?) {
-        super.init(tag: tag)
-        displayValueFor = nil
-        value = FieldDataStruct()
-        cellProvider = CellProvider<MultiFieldCell>(nibName: "MultiFieldCell")
-    }
+  required init(tag: String?) {
+    super.init(tag: tag)
+    
+    displayValueFor = nil
+    value = FieldDataStruct()
+    cellProvider = CellProvider<MultiFieldCell>(nibName: "MultiFieldCell")
+  }
 }

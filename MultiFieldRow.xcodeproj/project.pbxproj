@@ -17,34 +17,11 @@
 		348E299B1FC80BF200BC158D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E29991FC80BF200BC158D /* Main.storyboard */; };
 		348E299D1FC80BF200BC158D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348E299C1FC80BF200BC158D /* Assets.xcassets */; };
 		348E29A01FC80BF300BC158D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E299E1FC80BF300BC158D /* LaunchScreen.storyboard */; };
-		348E29AB1FC80BF300BC158D /* MultiFieldRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E29AA1FC80BF300BC158D /* MultiFieldRowTests.swift */; };
-		348E29B61FC80BF300BC158D /* MultiFieldRowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E29B51FC80BF300BC158D /* MultiFieldRowUITests.swift */; };
-		46F4061BEB9FA69649F860DB /* Pods_MultiFieldRowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8A18365BF06E41634731C6 /* Pods_MultiFieldRowUITests.framework */; };
-		7274198EFB11EB3B55D59C81 /* Pods_MultiFieldRowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350D6C52CC8316C13E7C49FD /* Pods_MultiFieldRowTests.framework */; };
 		E814B9A51AB4471BF491C9FC /* Pods_MultiFieldRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E73B560F7CA1DA777B0C80 /* Pods_MultiFieldRow.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		348E29A71FC80BF300BC158D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 348E298A1FC80BF200BC158D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 348E29911FC80BF200BC158D;
-			remoteInfo = MultiFieldRow;
-		};
-		348E29B21FC80BF300BC158D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 348E298A1FC80BF200BC158D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 348E29911FC80BF200BC158D;
-			remoteInfo = MultiFieldRow;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1E8A18365BF06E41634731C6 /* Pods_MultiFieldRowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiFieldRowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240965CCB7C120D490FE37BC /* Pods-MultiFieldRow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRow/Pods-MultiFieldRow.debug.xcconfig"; sourceTree = "<group>"; };
-		2AFD08399F9D5AF174A7512D /* Pods-MultiFieldRowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRowUITests/Pods-MultiFieldRowUITests.release.xcconfig"; sourceTree = "<group>"; };
 		34391EF81FC81445004CFAF0 /* MultiFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiFieldCell.xib; sourceTree = "<group>"; };
 		34391EFB1FC81755004CFAF0 /* MultiFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFieldCell.swift; sourceTree = "<group>"; };
 		34391EFD1FC81773004CFAF0 /* MultiFieldRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFieldRow.swift; sourceTree = "<group>"; };
@@ -57,17 +34,7 @@
 		348E299C1FC80BF200BC158D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		348E299F1FC80BF300BC158D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		348E29A11FC80BF300BC158D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		348E29A61FC80BF300BC158D /* MultiFieldRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiFieldRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		348E29AA1FC80BF300BC158D /* MultiFieldRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFieldRowTests.swift; sourceTree = "<group>"; };
-		348E29AC1FC80BF300BC158D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		348E29B11FC80BF300BC158D /* MultiFieldRowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiFieldRowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		348E29B51FC80BF300BC158D /* MultiFieldRowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFieldRowUITests.swift; sourceTree = "<group>"; };
-		348E29B71FC80BF300BC158D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		350D6C52CC8316C13E7C49FD /* Pods_MultiFieldRowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiFieldRowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F0EC040700575FD2BD1B27 /* Pods-MultiFieldRow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRow.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRow/Pods-MultiFieldRow.release.xcconfig"; sourceTree = "<group>"; };
-		7BA3E8145DF09517CA02C274 /* Pods-MultiFieldRowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRowUITests/Pods-MultiFieldRowUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		827EBB60CC1C441A5BC63EF3 /* Pods-MultiFieldRowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRowTests/Pods-MultiFieldRowTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1E61BC29D436180D473AC45 /* Pods-MultiFieldRowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFieldRowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFieldRowTests/Pods-MultiFieldRowTests.release.xcconfig"; sourceTree = "<group>"; };
 		E7E73B560F7CA1DA777B0C80 /* Pods_MultiFieldRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiFieldRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,22 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		348E29A31FC80BF300BC158D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7274198EFB11EB3B55D59C81 /* Pods_MultiFieldRowTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348E29AE1FC80BF300BC158D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46F4061BEB9FA69649F860DB /* Pods_MultiFieldRowUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -103,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				348E29941FC80BF200BC158D /* MultiFieldRow */,
-				348E29A91FC80BF300BC158D /* MultiFieldRowTests */,
-				348E29B41FC80BF300BC158D /* MultiFieldRowUITests */,
 				348E29931FC80BF200BC158D /* Products */,
 				4275EBB16B1519AFDD9A54BF /* Pods */,
 				A25A52A79BDF7E065BB78068 /* Frameworks */,
@@ -115,8 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				348E29921FC80BF200BC158D /* MultiFieldRow.app */,
-				348E29A61FC80BF300BC158D /* MultiFieldRowTests.xctest */,
-				348E29B11FC80BF300BC158D /* MultiFieldRowUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,24 +80,6 @@
 				348E29C31FC80D2A00BC158D /* Views */,
 			);
 			path = MultiFieldRow;
-			sourceTree = "<group>";
-		};
-		348E29A91FC80BF300BC158D /* MultiFieldRowTests */ = {
-			isa = PBXGroup;
-			children = (
-				348E29AA1FC80BF300BC158D /* MultiFieldRowTests.swift */,
-				348E29AC1FC80BF300BC158D /* Info.plist */,
-			);
-			path = MultiFieldRowTests;
-			sourceTree = "<group>";
-		};
-		348E29B41FC80BF300BC158D /* MultiFieldRowUITests */ = {
-			isa = PBXGroup;
-			children = (
-				348E29B51FC80BF300BC158D /* MultiFieldRowUITests.swift */,
-				348E29B71FC80BF300BC158D /* Info.plist */,
-			);
-			path = MultiFieldRowUITests;
 			sourceTree = "<group>";
 		};
 		348E29C31FC80D2A00BC158D /* Views */ = {
@@ -178,10 +107,6 @@
 			children = (
 				240965CCB7C120D490FE37BC /* Pods-MultiFieldRow.debug.xcconfig */,
 				73F0EC040700575FD2BD1B27 /* Pods-MultiFieldRow.release.xcconfig */,
-				827EBB60CC1C441A5BC63EF3 /* Pods-MultiFieldRowTests.debug.xcconfig */,
-				D1E61BC29D436180D473AC45 /* Pods-MultiFieldRowTests.release.xcconfig */,
-				7BA3E8145DF09517CA02C274 /* Pods-MultiFieldRowUITests.debug.xcconfig */,
-				2AFD08399F9D5AF174A7512D /* Pods-MultiFieldRowUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -190,8 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				E7E73B560F7CA1DA777B0C80 /* Pods_MultiFieldRow.framework */,
-				350D6C52CC8316C13E7C49FD /* Pods_MultiFieldRowTests.framework */,
-				1E8A18365BF06E41634731C6 /* Pods_MultiFieldRowUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,44 +141,6 @@
 			productReference = 348E29921FC80BF200BC158D /* MultiFieldRow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		348E29A51FC80BF300BC158D /* MultiFieldRowTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 348E29BD1FC80BF300BC158D /* Build configuration list for PBXNativeTarget "MultiFieldRowTests" */;
-			buildPhases = (
-				7D2C2EA1167365766102614C /* [CP] Check Pods Manifest.lock */,
-				348E29A21FC80BF300BC158D /* Sources */,
-				348E29A31FC80BF300BC158D /* Frameworks */,
-				348E29A41FC80BF300BC158D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				348E29A81FC80BF300BC158D /* PBXTargetDependency */,
-			);
-			name = MultiFieldRowTests;
-			productName = MultiFieldRowTests;
-			productReference = 348E29A61FC80BF300BC158D /* MultiFieldRowTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		348E29B01FC80BF300BC158D /* MultiFieldRowUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 348E29C01FC80BF300BC158D /* Build configuration list for PBXNativeTarget "MultiFieldRowUITests" */;
-			buildPhases = (
-				82823C0917BD3D7628B16F29 /* [CP] Check Pods Manifest.lock */,
-				348E29AD1FC80BF300BC158D /* Sources */,
-				348E29AE1FC80BF300BC158D /* Frameworks */,
-				348E29AF1FC80BF300BC158D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				348E29B31FC80BF300BC158D /* PBXTargetDependency */,
-			);
-			name = MultiFieldRowUITests;
-			productName = MultiFieldRowUITests;
-			productReference = 348E29B11FC80BF300BC158D /* MultiFieldRowUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -270,18 +155,6 @@
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
-					};
-					348E29A51FC80BF300BC158D = {
-						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 348E29911FC80BF200BC158D;
-					};
-					348E29B01FC80BF300BC158D = {
-						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 348E29911FC80BF200BC158D;
 					};
 				};
 			};
@@ -299,8 +172,6 @@
 			projectRoot = "";
 			targets = (
 				348E29911FC80BF200BC158D /* MultiFieldRow */,
-				348E29A51FC80BF300BC158D /* MultiFieldRowTests */,
-				348E29B01FC80BF300BC158D /* MultiFieldRowUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,20 +186,6 @@
 				34391EF91FC81445004CFAF0 /* MultiFieldCell.xib in Resources */,
 				34391F6B1FCC4112004CFAF0 /* countries.json in Resources */,
 				348E299B1FC80BF200BC158D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348E29A41FC80BF300BC158D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348E29AF1FC80BF300BC158D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,42 +208,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiFieldRow/Pods-MultiFieldRow-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D2C2EA1167365766102614C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MultiFieldRowTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		82823C0917BD3D7628B16F29 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MultiFieldRowUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E834411C3C1BC7E1346EAA5C /* [CP] Check Pods Manifest.lock */ = {
@@ -422,36 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		348E29A21FC80BF300BC158D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				348E29AB1FC80BF300BC158D /* MultiFieldRowTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348E29AD1FC80BF300BC158D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				348E29B61FC80BF300BC158D /* MultiFieldRowUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		348E29A81FC80BF300BC158D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 348E29911FC80BF200BC158D /* MultiFieldRow */;
-			targetProxy = 348E29A71FC80BF300BC158D /* PBXContainerItemProxy */;
-		};
-		348E29B31FC80BF300BC158D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 348E29911FC80BF200BC158D /* MultiFieldRow */;
-			targetProxy = 348E29B21FC80BF300BC158D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		348E29991FC80BF200BC158D /* Main.storyboard */ = {
@@ -618,76 +410,6 @@
 			};
 			name = Release;
 		};
-		348E29BE1FC80BF300BC158D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 827EBB60CC1C441A5BC63EF3 /* Pods-MultiFieldRowTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VCJG4B45FJ;
-				INFOPLIST_FILE = MultiFieldRowTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unvsoft.MultiFieldRowTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiFieldRow.app/MultiFieldRow";
-			};
-			name = Debug;
-		};
-		348E29BF1FC80BF300BC158D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1E61BC29D436180D473AC45 /* Pods-MultiFieldRowTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VCJG4B45FJ;
-				INFOPLIST_FILE = MultiFieldRowTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unvsoft.MultiFieldRowTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiFieldRow.app/MultiFieldRow";
-			};
-			name = Release;
-		};
-		348E29C11FC80BF300BC158D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BA3E8145DF09517CA02C274 /* Pods-MultiFieldRowUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VCJG4B45FJ;
-				INFOPLIST_FILE = MultiFieldRowUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unvsoft.MultiFieldRowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MultiFieldRow;
-			};
-			name = Debug;
-		};
-		348E29C21FC80BF300BC158D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AFD08399F9D5AF174A7512D /* Pods-MultiFieldRowUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VCJG4B45FJ;
-				INFOPLIST_FILE = MultiFieldRowUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unvsoft.MultiFieldRowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MultiFieldRow;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -705,24 +427,6 @@
 			buildConfigurations = (
 				348E29BB1FC80BF300BC158D /* Debug */,
 				348E29BC1FC80BF300BC158D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		348E29BD1FC80BF300BC158D /* Build configuration list for PBXNativeTarget "MultiFieldRowTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				348E29BE1FC80BF300BC158D /* Debug */,
-				348E29BF1FC80BF300BC158D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		348E29C01FC80BF300BC158D /* Build configuration list for PBXNativeTarget "MultiFieldRowUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				348E29C11FC80BF300BC158D /* Debug */,
-				348E29C21FC80BF300BC158D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
