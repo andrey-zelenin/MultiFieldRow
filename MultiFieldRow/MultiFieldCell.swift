@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 import Eureka
 
 struct FieldDataStruct: Equatable {
@@ -30,14 +32,13 @@ final class MultiFieldCell: Cell<FieldDataStruct>, UITextFieldDelegate, CellType
   var lookupList = [String]()
     
   required init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-    //super.init(style: style, reuseIdentifier: reuseIdentifier)
     fatalError("init(style:reuseIdentifier:) has not been implemented")
   }
     
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
   }
-    
+  
   override func setup() {
     super.setup()
         
